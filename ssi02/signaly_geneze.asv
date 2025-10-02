@@ -1,0 +1,29 @@
+% zakladni charakteristiky signalu
+clear all;
+close all;
+clc;
+
+
+%% spravna tvorba a vizualizace signalu
+% 1) definice casove osy
+fs = 100;          % [Hz]
+t_start = 0;      % [s]
+t_end = 5;         % [s]
+t = t_start * 1/fs : t_end - 1/fs;
+
+% 2) definice signalu
+f0 = 5;             % [Hz]
+
+
+y = 
+
+% 3) vizualizace
+figure(1);
+plot(t, y);
+
+xlabel('Cas [s]');
+ylabel('Hodnoty [-]');
+legend('Funkce');
+title('Muj prvni graf');
+grid on;
+
